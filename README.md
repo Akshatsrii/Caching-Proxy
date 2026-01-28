@@ -1,6 +1,13 @@
 <div align="center">
-  <img src="./assets/logo.svg" alt="Caching Proxy Logo" width="150"/>
-  
+
+![Caching Proxy Banner](https://via.placeholder.com/1200x300/6366f1/ffffff?text=🚀+Caching+Proxy+Server)
+
+```diff
+! ═══════════════════════════════════════════════════════════════════════════════
+! 🌟 HIGH-PERFORMANCE CLI-BASED CACHING PROXY WITH REAL-TIME VISUALIZATION 🌟
+! ═══════════════════════════════════════════════════════════════════════════════
+```
+
   # 🚀 Caching Proxy
   
   **A high-performance CLI-based caching proxy server with real-time visualization**
@@ -20,7 +27,9 @@
   </p>
 </div>
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 🎯 What It Does
 
@@ -68,7 +77,9 @@ Instant response from cache
 </tr>
 </table>
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## ✨ Features
 
@@ -87,7 +98,9 @@ Instant response from cache
 
 </div>
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 🚀 Quick Start
 
@@ -132,7 +145,9 @@ docker compose up --build
 
 </details>
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 💻 Usage
 
@@ -172,34 +187,13 @@ npm run build
 
 **Dashboard runs on:** `http://localhost:5173`
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
-## 📸 Screenshots
 
-<div align="center">
-
-### 🎨 Cache MISS - First Request
-<img src="./assets/cache-miss.png" alt="Cache Miss Screenshot" width="700"/>
-
-*First request fetches from origin server - slower response time*
-
----
-
-### ✅ Cache HIT - Cached Response
-<img src="./assets/cache-hit.png" alt="Cache Hit Screenshot" width="700"/>
-
-*Subsequent requests served from cache - instant response*
-
----
-
-### 🖥️ Dashboard Overview
-<img src="./assets/dashboard.png" alt="Dashboard Screenshot" width="700"/>
-
-*Real-time visualization of cache performance with beautiful UI*
-
-</div>
-
----
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 🏗️ Architecture
 
@@ -272,7 +266,9 @@ Examples:
   /products?limit=10  → "GET:/products?limit=10"
 ```
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 🎓 Learning Outcomes
 
@@ -286,7 +282,9 @@ By exploring this project, you'll understand:
 - ✅ Docker containerization
 - ✅ React frontend with state management
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 🧪 API Examples
 
@@ -314,7 +312,9 @@ curl -i http://localhost:3000/products?limit=5
 # X-Cache: HIT
 ```
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 🐳 Docker Commands
 
@@ -335,7 +335,9 @@ docker compose down
 docker compose down -v
 ```
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 🛠️ Configuration
 
@@ -357,7 +359,9 @@ Create a `.env` file in the `frontend/` directory:
 VITE_API_URL=http://localhost:3000
 ```
 
----
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
 ## 🚧 Roadmap
 
@@ -373,11 +377,33 @@ VITE_API_URL=http://localhost:3000
 - [ ] Rate limiting
 - [ ] Authentication
 
----
-## 🚧 Problem Statment- https://roadmap.sh/projects/caching-server
+```diff
++ ──────────────────────────────────────────────────────────────────────────────
+```
 
+## 🚧 Problem Statement
+
+**Project Challenge:** https://roadmap.sh/projects/caching-server
+
+```diff
+! ═══════════════════════════════════════════════════════════════════════════════
+! 🌟 THANK YOU FOR CHECKING OUT CACHING PROXY! 🌟
+! ═══════════════════════════════════════════════════════════════════════════════
+```
+
+<div align="center">
+
+![Footer Banner](https://via.placeholder.com/1200x200/fbbf24/000000?text=⭐+Star+this+repo+if+you+found+it+helpful!+⭐)
 
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/caching-proxy?style=social)](https://github.com/yourusername/caching-proxy/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/caching-proxy?style=social)](https://github.com/yourusername/caching-proxy/network/members)
+
+**Made with ❤️ by developers, for developers**
+
+```diff
++ ════════════════════════════════════════════════════════════════════════════
++ 🚀 Happy Caching! 🚀
++ ════════════════════════════════════════════════════════════════════════════
+```
 
 </div>
