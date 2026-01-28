@@ -1,12 +1,8 @@
 <div align="center">
 
-![Caching Proxy Banner](https://via.placeholder.com/1200x300/6366f1/ffffff?text=🚀+Caching+Proxy+Server)
-
-```diff
-! ═══════════════════════════════════════════════════════════════════════════════
-! 🌟 HIGH-PERFORMANCE CLI-BASED CACHING PROXY WITH REAL-TIME VISUALIZATION 🌟
-! ═══════════════════════════════════════════════════════════════════════════════
-```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header" width="100%">
+</p>
 
   # 🚀 Caching Proxy
   
@@ -191,8 +187,7 @@ npm run build
 + ──────────────────────────────────────────────────────────────────────────────
 ```
 
-
-+ ──────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 ```
 
 ## 🏗️ Architecture
@@ -385,25 +380,16 @@ VITE_API_URL=http://localhost:3000
 
 **Project Challenge:** https://roadmap.sh/projects/caching-server
 
-```diff
-! ═══════════════════════════════════════════════════════════════════════════════
-! 🌟 THANK YOU FOR CHECKING OUT CACHING PROXY! 🌟
-! ═══════════════════════════════════════════════════════════════════════════════
-```
-
 <div align="center">
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=footer" width="100%">
+</p>
 
 ![Footer Banner](https://via.placeholder.com/1200x200/fbbf24/000000?text=⭐+Star+this+repo+if+you+found+it+helpful!+⭐)
 
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/caching-proxy?style=social)](https://github.com/yourusername/caching-proxy/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/caching-proxy?style=social)](https://github.com/yourusername/caching-proxy/network/members)
 
-**Made with ❤️ by developers, for developers**
-
-```diff
-+ ════════════════════════════════════════════════════════════════════════════
-+ 🚀 Happy Caching! 🚀
-+ ════════════════════════════════════════════════════════════════════════════
-```
 
 </div>
