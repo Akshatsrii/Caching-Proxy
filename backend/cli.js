@@ -14,7 +14,7 @@ program.parse(process.argv)
 const options = program.opts()
 
 if (options.clearCache) {
-  const port = options.port || 3000
+  const port = process.env.PORT || options.port || 3000
   try {
     const res = await fetch(`http://localhost:${port}/clear-cache`, { method: "POST" })
     if (res.ok) {
@@ -28,9 +28,10 @@ if (options.clearCache) {
   process.exit(0)
 }
 
-if (!options.port || !options.origin) {
+const serverPort = process.env.PORT || options.port
+if (!serverPort || !options.origin) {
   console.log("Usage: caching-proxy --port <number> --origin <url>")
   process.exit(1)
 }
 
-startServer(options.port, options.origin)
+startServer(serverPort, options.origin)
