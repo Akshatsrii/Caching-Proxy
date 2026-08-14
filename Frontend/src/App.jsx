@@ -12,7 +12,7 @@ export default function App() {
     setCacheStatus(null)
 
     try {
-      const res = await fetch("http://localhost:3000" + path)
+      const res = await fetch("https://caching-proxy-51mu.onrender.com" + path)
       const json = await res.json()
       setCacheStatus(res.headers.get("X-Cache"))
       setData(JSON.stringify(json, null, 2))
