@@ -21,6 +21,11 @@
     <a href="#-screenshots">Screenshots</a> •
     <a href="#-architecture">Architecture</a>
   </p>
+
+  <h3 align="center">
+    🚀 <b>Live Demo (Frontend):</b> <a href="https://caching-proxy-pi.vercel.app/">https://caching-proxy-pi.vercel.app/</a><br>
+    ⚙️ <b>Live API (Backend):</b> <a href="https://caching-proxy-51mu.onrender.com/">https://caching-proxy-51mu.onrender.com/</a>
+  </h3>
 </div>
 
 ```diff
