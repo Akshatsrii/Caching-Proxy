@@ -2,7 +2,6 @@
 
 import { Command } from "commander"
 import { startServer } from "./app.js"
-import { clearCache } from "./cache.js"
 
 const program = new Command()
 
@@ -15,8 +14,17 @@ program.parse(process.argv)
 const options = program.opts()
 
 if (options.clearCache) {
-  clearCache()
-  console.log("Cache cleared")
+  const port = options.port || 3000
+  try {
+    const res = await fetch(`http://localhost:${port}/clear-cache`, { method: "POST" })
+    if (res.ok) {
+      console.log("Cache cleared successfully on port", port)
+    } else {
+      console.log(`Failed to clear cache: ${res.status} ${res.statusText}`)
+    }
+  } catch (err) {
+    console.log(`Could not connect to proxy server on port ${port} to clear cache. Make sure it is running.`)
+  }
   process.exit(0)
 }
 
